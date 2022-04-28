@@ -1,0 +1,15 @@
+.userPanel__container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+}
+
+.userPanel__body {
+  padding: 1.3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  flex-basis: 85%;
+}

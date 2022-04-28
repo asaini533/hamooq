@@ -1,0 +1,31 @@
+.loginForm__conatiner {
+  width: 50%;
+}
+
+.loginForm__form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.login__action-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.login__action-or {
+  text-align: center;
+  margin: 2rem;
+}
+
+.login__social {
+  display: flex;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+}

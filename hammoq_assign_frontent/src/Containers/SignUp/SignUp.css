@@ -1,0 +1,65 @@
+.signup__container {
+  display: flex;
+  height: 100vh;
+}
+
+.signup__action {
+  flex-basis: 50%;
+}
+
+.signup__action-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.signup__action-header-text__one {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.signup__action-header-text__two {
+  padding: 10px;
+  width: 80%;
+  text-align: center;
+  color: #9f9e9e;
+}
+
+.signup__brand {
+  flex-basis: 50%;
+  background: url("../../../src/assets/images/auth.png") no-repeat left;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.signup__brand-text__one {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.signup__brand-text__two {
+  font-size: 1rem;
+  color: #fff;
+  margin: 5px 0 140px 0;
+}
+
+.signup__action {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem 1rem;
+}
+
+.signup__action-footer__text span {
+  color: #006bc1;
+  cursor: pointer;
+  font-weight: 500;
+}

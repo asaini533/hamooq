@@ -1,0 +1,13 @@
+.googleAuth {
+  border: 1px solid #db4437;
+  color: #db4437;
+}
+
+.googleAuth:hover {
+  background-color: #db4437;
+  color: #fff;
+}
+
+.googleAuth_google {
+  display: none !important;
+}

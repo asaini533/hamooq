@@ -1,0 +1,29 @@
+.userImage__container {
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.userImage__input {
+  display: none;
+}
+
+.userImage__inputElement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #000;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  opacity: 35%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.userImage__inputElement:hover {
+  opacity: 45%;
+}

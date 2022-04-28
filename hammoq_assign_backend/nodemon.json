@@ -1,0 +1,6 @@
+{
+    "env": {
+        "DB_URL": "ankit_saini533:sainianki533@cluster0.b1dej.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+        "JWT_KEY": "my_secret"
+    }
+}

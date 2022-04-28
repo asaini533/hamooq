@@ -1,0 +1,17 @@
+.signupform__conatiner {
+  width: 50%;
+}
+
+.signupform__form {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  justify-content: center;
+}
+
+.signup__form-gender {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}

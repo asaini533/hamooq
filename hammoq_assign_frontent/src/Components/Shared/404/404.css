@@ -1,0 +1,53 @@
+.error {
+  display: grid;
+  grid-template-rows: auto auto;
+  align-items: center;
+}
+
+.error_text {
+  justify-self: center;
+  text-align: center;
+}
+
+.error_text-heading {
+  color: #264653;
+  font-size: 3rem;
+  margin-bottom: 0.3rem;
+}
+
+.error_text-para {
+  margin: 0rem;
+  color: #212121;
+  font-size: 1.1rem;
+}
+
+.error_img {
+  text-align: center;
+  align-self: end;
+}
+
+.error_img img {
+  width: 95%;
+}
+
+@media (min-width: 576px) {
+  .error {
+    grid-template-columns: 45% 55%;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  .error_text {
+    justify-self: end;
+    text-align: end;
+    margin-left: 3rem;
+  }
+
+  .error_img {
+    text-align: inherit;
+  }
+
+  .error_img img {
+    width: 60%;
+  }
+}

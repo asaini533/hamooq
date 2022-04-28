@@ -1,0 +1,9 @@
+.linkedinAuth {
+  border: 1px solid #0e76a8;
+  color: #0e76a8;
+}
+
+.linkedinAuth:hover {
+  background-color: #0e76a8;
+  color: #fff;
+}
